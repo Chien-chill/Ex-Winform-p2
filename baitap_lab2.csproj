@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E209F200-DEBB-412F-9510-C81C6F8008AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>baitap_lab2</RootNamespace>
+    <AssemblyName>baitap_lab2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.Desktop.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baitap1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap1.Designer.cs">
+      <DependentUpon>baitap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap10.Designer.cs">
+      <DependentUpon>baitap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap11.Designer.cs">
+      <DependentUpon>baitap11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap13.Designer.cs">
+      <DependentUpon>baitap13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap14.Designer.cs">
+      <DependentUpon>baitap14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap15.Designer.cs">
+      <DependentUpon>baitap15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap16.Designer.cs">
+      <DependentUpon>baitap16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap17.Designer.cs">
+      <DependentUpon>baitap17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap18.Designer.cs">
+      <DependentUpon>baitap18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap19.Designer.cs">
+      <DependentUpon>baitap19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap20.Designer.cs">
+      <DependentUpon>baitap20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap21.Designer.cs">
+      <DependentUpon>baitap21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap22.Designer.cs">
+      <DependentUpon>baitap22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap22Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap22Input.Designer.cs">
+      <DependentUpon>baitap22Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap23.Designer.cs">
+      <DependentUpon>baitap23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap26.Designer.cs">
+      <DependentUpon>baitap26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap27.Designer.cs">
+      <DependentUpon>baitap27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap28.Designer.cs">
+      <DependentUpon>baitap28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap29.Designer.cs">
+      <DependentUpon>baitap29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap3.Designer.cs">
+      <DependentUpon>baitap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap30.Designer.cs">
+      <DependentUpon>baitap30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap30Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap30Input.Designer.cs">
+      <DependentUpon>baitap30Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap31.Designer.cs">
+      <DependentUpon>baitap31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap32.Designer.cs">
+      <DependentUpon>baitap32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap34.Designer.cs">
+      <DependentUpon>baitap34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap4.Designer.cs">
+      <DependentUpon>baitap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap5.Designer.cs">
+      <DependentUpon>baitap5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap6.Designer.cs">
+      <DependentUpon>baitap6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap7 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap7 .Designer.cs">
+      <DependentUpon>baitap7 .cs</DependentUpon>
+    </Compile>
+    <Compile Include="baitap8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baitap8.Designer.cs">
+      <DependentUpon>baitap8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="baitap1.resx">
+      <DependentUpon>baitap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap10.resx">
+      <DependentUpon>baitap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap11.resx">
+      <DependentUpon>baitap11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap13.resx">
+      <DependentUpon>baitap13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap14.resx">
+      <DependentUpon>baitap14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap15.resx">
+      <DependentUpon>baitap15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap16.resx">
+      <DependentUpon>baitap16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap17.resx">
+      <DependentUpon>baitap17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap18.resx">
+      <DependentUpon>baitap18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap19.resx">
+      <DependentUpon>baitap19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap20.resx">
+      <DependentUpon>baitap20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap21.resx">
+      <DependentUpon>baitap21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap22.resx">
+      <DependentUpon>baitap22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap22Input.resx">
+      <DependentUpon>baitap22Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap23.resx">
+      <DependentUpon>baitap23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap26.resx">
+      <DependentUpon>baitap26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap27.resx">
+      <DependentUpon>baitap27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap28.resx">
+      <DependentUpon>baitap28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap29.resx">
+      <DependentUpon>baitap29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap3.resx">
+      <DependentUpon>baitap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap30.resx">
+      <DependentUpon>baitap30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap30Input.resx">
+      <DependentUpon>baitap30Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap31.resx">
+      <DependentUpon>baitap31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap32.resx">
+      <DependentUpon>baitap32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap34.resx">
+      <DependentUpon>baitap34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap4.resx">
+      <DependentUpon>baitap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap5.resx">
+      <DependentUpon>baitap5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap6.resx">
+      <DependentUpon>baitap6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap7 .resx">
+      <DependentUpon>baitap7 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baitap8.resx">
+      <DependentUpon>baitap8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
